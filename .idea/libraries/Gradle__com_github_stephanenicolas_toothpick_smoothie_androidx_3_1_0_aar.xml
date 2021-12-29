@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.stephanenicolas.toothpick:smoothie-androidx:3.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/22c7ed060ab95789cabe4d859f934d45/smoothie-androidx-3.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/22c7ed060ab95789cabe4d859f934d45/smoothie-androidx-3.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/22c7ed060ab95789cabe4d859f934d45/smoothie-androidx-3.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.stephanenicolas.toothpick/smoothie-androidx/3.1.0/2245d0312db58e1f4410141e5cb7d020cf4fc2b8/smoothie-androidx-3.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.stephanenicolas.toothpick/smoothie-androidx/3.1.0/4d8bead31a835a998f32bcaaa28afca8e75cac3/smoothie-androidx-3.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
