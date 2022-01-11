@@ -72,14 +72,14 @@
             android:text="Test Coroutine" />
 
         <Button
-            android:id="@+id/test2"
+            android:id="@+id/btnTestShareSMS"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_marginTop="20dp"
-            android:text="Test ANR" />
+            android:text="Test ShareToSms" />
 
         <Button
-            android:id="@+id/test3"
+            android:id="@+id/btnOpenOtherApp"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_marginTop="20dp"

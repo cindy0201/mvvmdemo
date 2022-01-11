@@ -1,11 +1,7 @@
 package com.hxt.mvvmdemo.coroutine.other
 
-import android.annotation.SuppressLint
 import android.os.AsyncTask
-import android.os.Handler
-import android.os.Message
 import com.hxt.mvvmdemo.retrofit2.Repo
-import com.hxt.mvvmdemo.retrofit2.Request
 
 class AsyncTaskDemo : AsyncTask<Void, Void, Repo?>() {
 
@@ -32,13 +28,4 @@ class AsyncTaskDemo : AsyncTask<Void, Void, Repo?>() {
 //        Thread.sleep(5000)
 //        return "zhangsan"
 //    }
-
-    private val handler: Handler = @SuppressLint("HandlerLeak")
-    object : Handler() {
-        override fun handleMessage(msg: Message) {
-            super.handleMessage(msg)
-            // update view in main thread
-//            updateView()
-        }
-    }
 }

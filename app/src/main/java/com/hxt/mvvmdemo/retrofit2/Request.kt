@@ -7,7 +7,7 @@ import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-object Request {
+class Request {
     fun request(callback: ((result: Repo?) -> Unit)?) {
         val mRetrofit: Retrofit = Retrofit.Builder()
             .baseUrl("https://api.github.com/")
@@ -25,4 +25,16 @@ object Request {
             }
         })
     }
+
+    suspend fun getRepo(): Repo {
+        val mRetrofit: Retrofit = Retrofit.Builder()
+            .baseUrl("https://api.github.com/")
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
+        val service = mRetrofit.create(GithubService::class.java)
+        val list = service.listRepoKt("octocat")
+        return list[1]
+    }
+
+
 }
